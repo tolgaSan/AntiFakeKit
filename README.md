@@ -78,11 +78,13 @@ AntiFakeKit follows a modular, scalable design:
 
 ## 🧰 Proposed Tech Stack
 
-**Frontend:** React + TypeScript + Tailwind  
-**Backend API:** Python (FastAPI) or Node (NestJS)  
-**Workers:** Python-based ML pipelines  
-**Models:** Open-source detectors + specialized forensic models  
-**Infrastructure:** Docker, Redis/RabbitMQ, S3-compatible storage  
+See [`docs/tech-stack.md`](docs/tech-stack.md) for the Phase 1 technology choices, rationale, and suggested repository structure.
+
+**Frontend:** React + TypeScript + Tailwind
+**Backend API:** Python (FastAPI) or Node (NestJS)
+**Workers:** Python-based ML pipelines
+**Models:** Open-source detectors + specialized forensic models
+**Infrastructure:** Docker, Redis/RabbitMQ, S3-compatible storage
 
 ---
 
