@@ -1,0 +1,75 @@
+# Environment variables
+.env
+.env.*
+
+# Credentials / keys
+*.key
+*.pem
+*.p12
+*.crt
+*.der
+*.jks
+secrets.json
+config.local.json 
+
+# Model weights & checkpoints
+models/
+!models/.gitkeep
+
+# Generated artifacts
+artifacts/
+!artifacts/.gitkeep
+
+# Temporary outputs
+tmp/
+.cache/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Poetry / venv
+.venv/
+venv/
+poetry.lock
+
+logs/
+celerybeat-schedule
+*.log
+
+# Next.js builds
+.next/
+out/
+dist/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Docker artifacts
+**/docker-data/
+*.pid
+
+# Local-only containers & volumes
+minio/
+postgres/
+redis/
+
+uploads/
+
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.history/
+.idea/
+
+docs/_build/
+
+infra\compose\postgres-data
+infra\compose\minio-data
